@@ -1,0 +1,205 @@
+p {
+	margin-top: 0;
+	font-size: 15px;
+	color: $color-lgray;
+
+	@media screen and (min-width: $screen-sm){
+		font-size: 18px;
+	}
+
+
+}
+
+h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
+	margin-top: 0;
+	font-size: 25px;
+	color: $color-black;
+
+	@media screen and (min-width: $screen-sm){
+		font-size: 36px;
+	}
+
+	&.title-content {
+		
+	}
+
+	&.title-section {
+		font-size: 30px;
+		
+		
+		@media screen and (min-width: $screen-sm){
+			font-size: 48px;
+		}
+		
+	}
+}
+
+h1, .h1 {
+
+}
+h2, .h2 {
+
+}
+h3, .h3 {
+
+}
+h4, .h4 {
+
+}
+h5, .h5 {
+
+}
+
+//Link
+a{
+	text-decoration: none;
+	font-size: 14px;
+	color: $color-lgray;
+
+	@media screen and (min-width: $screen-sm){
+		font-size: 16px;
+	}
+}
+
+ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+//transformação da fonte
+.uppercase {
+	text-transform: uppercase !important;
+}
+.capitalize {
+	text-transform: capitalize !important;
+}
+.transform-none {
+	text-transform: none !important;
+}
+
+
+// alinhamento do texto
+.text-center {
+	text-align: center !important;
+}
+.text-left {
+	text-align: left !important;
+}
+.text-right {
+	text-align: right !important;
+}
+.text-centered {
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+// Weight
+.text-light {
+	font-weight: 100 !important;
+}
+.text-normal {
+	font-weight: 400 !important;
+}
+.text-semibold {
+	font-weight: 600 !important;
+}
+.text-bold {
+	font-weight: 700 !important;
+}
+
+// cores do texto
+// .text-lgray {
+// 	color: $color-lgray !important;
+// }
+// .text-gray{
+// 	color: $color-gray !important;
+// }
+// .text-dark{
+// 	color: $color-dark !important;
+// }
+
+.text-white {
+	color: $color-white !important;
+}
+.text-black {
+	color: $color-black !important;
+}
+// .text-orange {
+// 	color: $color-orange !important;
+// }
+
+
+// .text-alert {
+// 	color: $color-alert !important;
+// }
+// .text-danger {
+// 	color: $color-danger !important;
+// }
+// .text-success {
+// 	color: $color-success !important;
+// }
+
+
+// fontes do texto
+.font-display {
+	font-family: $font-display !important;
+}
+.font-text {
+	font-family: $font-text !important;
+}
+
+
+//
+.font-size14{
+	font-size: 14px !important;
+}
+
+.font-size17{
+	font-size: 17px !important;
+}
+
+
+.font-line-heig{
+	line-height: 30px;
+}
+
+
+
+
+// @media screen{
+// 	@media(min-width: $screen-sm){
+
+// 	}
+// 	@media(min-width: $screen-md){
+
+// 	}
+
+//@media(min-width: $screen-lg){
+
+	// 	}
+// }
+
+
+
+// @media screen and (min-width: $screen-sm){
+	
+// }
+// @media screen and (min-width: $screen-md){
+	
+// }
+// @media screen and (min-width: $screen-lg){
+	
+// }
+
+
+
+// xs = 767px <  - mobile
+
+// sm = 768px >  - tablet
+
+// md = 1024px > - desktop
+
+// lg = 1170px > - desktop lg

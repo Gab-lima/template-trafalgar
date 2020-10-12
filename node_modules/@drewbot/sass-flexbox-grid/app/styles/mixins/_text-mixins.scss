@@ -1,0 +1,6 @@
+// Text Mixins
+
+@mixin font-size-line-height($size) {
+  font-size: $size;
+  line-height: ($line-height-multiplier * $size);
+}

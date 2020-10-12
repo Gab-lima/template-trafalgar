@@ -1,0 +1,61 @@
+@mixin menu-toggle( $color: #000, $width: 16px, $height: 16px, $bar-height: 2px ) {
+    line-height: ($height / 2);
+
+    position: relative;
+    z-index: 90;
+
+    outline: none;
+
+    width: $width;
+    height: $height;
+
+    border: none;
+    background: transparent;
+
+    -webkit-appearance: none;
+            appearance: none;
+
+    .bar {
+        position: absolute;
+        bottom: ($height / 2);
+        left: 0;
+
+        display: inline-block;
+
+        width: $width;
+        height: $bar-height;
+
+        transition: top .4s ease, transform .4s ease, opacity .4s ease;
+
+        background: $color;
+
+        &:first-child,
+        &:last-child {
+            position: absolute;
+        }
+
+        &:first-child {
+            top: -1px;
+        }
+
+        &:last-child {
+            bottom: 1px;
+        }
+    }
+
+    &.active {
+        .bar {
+            &:first-child {
+                top: ($bar-height + 5);
+                transform: rotate(-45deg);
+            }
+            &:nth-child(2) {
+                opacity: 0;
+            }
+            &:last-child {
+                top: ($bar-height + 5);
+                transform: rotate(45deg);
+            }
+        }
+    }
+}

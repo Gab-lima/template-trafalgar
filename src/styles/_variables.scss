@@ -1,0 +1,39 @@
+// Paleta de cores do site
+$color-white: #fff;
+$color-black: #000;
+$color-lgray: #7D7987;
+$color-blue: #458FF6;
+$color-active: #1F1534;
+
+
+// Importação de font do site
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700&display=swap');
+
+// Grid configurações
+$grid-gutter-width: 30px;
+$grid-columns: 12;
+
+$screen-sm: 768px;
+$screen-md: 1024px; 
+$screen-lg: 1170px;
+
+$grid-container-max-size: 1170px;
+
+//configurações de fonte
+$font-display: 'Mulish', sans-serif;
+$font-text: 'Mulish', sans-serif;
+$font-weight-heading: 400;
+
+
+//icons do Icomoon App
+$icomoon-font-family: "icomoon" !default;
+$icomoon-font-path: "fonts" !default;
+
+$icon-search: "\e903";
+$icon-arrow-down: "\e904";
+$icon-arrow-right: "\e906";
+$icon-glenmark: "\e905";
+$icon-facebook: "\e900";
+$icon-instagram: "\e901";
+$icon-youtube: "\e902";
+

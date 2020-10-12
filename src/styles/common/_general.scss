@@ -1,0 +1,79 @@
+// Separadores
+.not-separate {
+    margin-bottom: 0 !important;
+}
+
+.small-separate {
+    margin-bottom: 30px !important;
+}
+
+.separate-base {
+	margin-bottom: 60px !important;
+}
+
+.separate-medium {
+	margin-bottom: 90px !important;
+}
+
+.separate-double {
+	margin-bottom: 120px  !important;
+}
+
+.separete-section {
+	margin-bottom: 70px !important;
+
+	@media screen and (min-width: $screen-sm){
+		margin-bottom: 150px !important;
+	}
+}
+//hidden
+.hidden{
+	display: none !important;
+}
+
+@media screen{
+	@media (max-width: ($screen-sm - 1px)){
+		.hidden-xs{
+		display: none !important;
+		}
+	}
+	@media (min-width: $screen-sm) and (max-width: ($screen-md - 1px)){
+		.hidden-sm{
+		display: none !important;
+		}
+	}
+
+	@media (min-width: $screen-md) and (max-width: ($screen-lg - 1px)){
+		.hidden-md{
+		display: none !important;
+		}
+	}
+
+	@media (min-width: $screen-lg){
+		.hidden-lg{
+		display: none !important;
+		}
+	}
+}
+
+//Display table centralizado
+.table-center{
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+// Aos animate - tira o estilo
+@media screen and (max-width: 1400px) {
+	[data-aos] {
+	  opacity: 0;
+	  transition-property: transform, opacity;
+	  transform: translateX(0) !important;
+  
+	  &.aos-animate {
+		opacity: 1;
+		transform: translateX(0) !important;
+	  }
+	}
+  }
