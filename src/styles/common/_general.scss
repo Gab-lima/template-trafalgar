@@ -16,14 +16,14 @@
 }
 
 .separate-double {
-	margin-bottom: 120px  !important;
+	margin-bottom: 150px  !important;
 }
 
 .separete-section {
 	margin-bottom: 70px !important;
 
 	@media screen and (min-width: $screen-sm){
-		margin-bottom: 150px !important;
+		margin-bottom: 200px !important;
 	}
 }
 //hidden
@@ -77,3 +77,13 @@
 	  }
 	}
   }
+
+
+  //tirar estilo de elementos próprio.
+// display: inline-block; = apenas botão
+// appearance: none;
+// -webkit-appearance: none;
+
+//quando eu preciso de uma imagem maior, mas ela continua com seu tamanho padrão
+// object-fit: scale-down;
+// object-position: center;

@@ -1,0 +1,18 @@
+.btn{
+    color: $color-white;
+    background-color: $color-blue;
+    padding: 10px 20px;
+    border: 2px solid $color-blue;
+    border-radius: 55px;
+    font-weight: bold;
+
+    &.btn-inverse{
+        background-color: $color-white;
+        color: $color-blue;
+        display: flex;
+        align-items: center;
+
+}
+    }
+
+

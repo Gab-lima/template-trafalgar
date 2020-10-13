@@ -1,0 +1,28 @@
+.carousel{
+    .container{
+    background: rgb(90,152,242);
+    background: linear-gradient(0deg, rgba(90,152,242,1) 0%, rgba(103,195,243,1) 100%);
+    border-radius: 20px;
+    .carousel-simple{
+        .content{
+            .img-name{
+                    img{
+                        border-radius: 70px; 
+                        border: 3px solid $color-white;
+                    }
+                h5{
+                    color: $color-white;
+                }
+                p{
+                    color: $color-white;
+                }
+            }
+            .paragraph-carousel{
+                p{
+                    color: $color-white;
+                }
+            }
+        }
+    }
+    }
+}

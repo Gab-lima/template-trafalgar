@@ -1,0 +1,40 @@
+.banner-two-elements{
+    margin-top: 50px;
+    .container{
+        .paragraph{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 50px;
+            h3{
+                margin-bottom: 25px;
+                text-align: flex-start;
+            }
+            p{
+                text-align: center;
+                margin-bottom: 25px;
+            }
+        }
+        .img-banner{
+            display: table;
+            margin: 0 auto;
+        }
+    }
+    @media screen and (min-width: $screen-md){
+        .container{
+            .paragraph{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            h3{
+                text-align: start;
+            }
+            p{
+                text-align: start;
+            }
+
+            }
+        }        
+    }
+}

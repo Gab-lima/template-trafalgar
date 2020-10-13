@@ -1,7 +1,8 @@
 p {
-	margin-top: 0;
+	margin: 0;
 	font-size: 15px;
 	color: $color-lgray;
+	line-height: 25px;
 
 	@media screen and (min-width: $screen-sm){
 		font-size: 18px;
@@ -11,7 +12,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
-	margin-top: 0;
+	margin: 0;
 	font-size: 25px;
 	color: $color-black;
 
@@ -19,8 +20,26 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 		font-size: 36px;
 	}
 
-	&.title-content {
-		
+	&.title-after-center{
+		&::after{
+			content: "";
+			display: block;
+			width: 50px;
+			height: 2px;
+			background-color: currentColor;
+			margin: 20px auto;
+		}
+	}
+
+	&.title-after-start{
+		&::after{
+			content: "";
+			display: block;
+			width: 50px;
+			height: 2px;
+			background-color: currentColor;
+			margin: 20px 0;
+		}
 	}
 
 	&.title-section {
@@ -51,6 +70,9 @@ h5, .h5 {
 }
 
 //Link
+li{
+	list-style: none;
+}
 a{
 	text-decoration: none;
 	font-size: 14px;
@@ -60,6 +82,7 @@ a{
 		font-size: 16px;
 	}
 }
+
 
 ul{
 	list-style-type: none;
