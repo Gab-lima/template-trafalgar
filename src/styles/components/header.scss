@@ -64,6 +64,10 @@ header{
                 ul{
                     display: flex;
                     li{
+                        transition: 0.3s;
+                        &:hover{
+                            transform: translateY(-5px);
+                        }
                         a{
                             color: $color-lgray;
                             padding: 10px 17.5px;
@@ -72,6 +76,7 @@ header{
                             
                             &:hover{
                                 color: $color-active;
+                                font-weight: 700;
                             }
                         }
                     }
