@@ -5,6 +5,30 @@
         border-radius: 20px;
         padding: 45px 30px;
         .owl-carousel{
+
+            .owl-nav{
+                display: flex;
+                justify-content: space-between;
+                .owl-prev{
+                    &:focus{
+                        outline: none;
+                    }
+                    font-size: 50px;
+                }
+                .owl-next{
+                    &:focus{
+                        outline: none;
+                    }
+                    font-size: 50px;
+                }
+            }
+
+            .owl-dots{
+                .owl.dot{
+                    color: red;
+                }
+                
+            }
             .item{
                 display: flex;
                 flex-direction: column;
